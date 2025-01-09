@@ -1,0 +1,73 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container settings */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Header styling */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.header h1 {
+    margin: 10px 0;
+    font-size: 2em;
+    color: #333;
+}
+
+.header p {
+    font-size: 1.1em;
+    color: #777;
+}
+
+/* Bio section styling */
+.bio, .contact, .social {
+    margin-bottom: 20px;
+}
+
+.bio h3, .contact h3, .social h3 {
+    color: #333;
+    font-size: 1.5em;
+}
+
+.bio p, .contact p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Social media links styling */
+.social a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+    margin-right: 15px;
+}
+
+.social a:hover {
+    color: #007BFF;
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #777;
+}
